@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     connect(this, &MainWindow::sendmysignal, this, &MainWindow::receivemysignal);
 
-    emit sendmysignal(QString("started"));
+    emit sendmysignal(QString("Started"));
 }
 
 MainWindow::~MainWindow()
@@ -18,7 +18,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButtonSender_clicked()
 {
-    emit sendmysignal(QString("button pressed"));
+    emit sendmysignal(QString("Button pressed"));
 }
 
 void MainWindow::receivemysignal(QString s)

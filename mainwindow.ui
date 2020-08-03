@@ -47,7 +47,7 @@
      <item>
       <widget class="QLabel" name="labelReceiver">
        <property name="text">
-        <string>Nothing recieved yet</string>
+        <string>Nothing received yet</string>
        </property>
       </widget>
      </item>
