@@ -1,9 +1,8 @@
 #include <QCoreApplication>
-
 #include <QThread>
-#include <iostream>
 #include <QMutex>
-#include <QRandomGenerator>
+
+#include <iostream>
 
 using namespace std;
 
