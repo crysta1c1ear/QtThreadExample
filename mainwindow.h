@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "generator.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -15,9 +17,12 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    Generator * _generator;
+
 private slots:
     void on_pushButtonSender_clicked();
     void receivemysignal(QString);
+    void onGeneratorFinished();
 
 signals:
     void sendmysignal(QString);

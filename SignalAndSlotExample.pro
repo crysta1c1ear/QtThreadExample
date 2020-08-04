@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        generator.cpp \
         main.cpp \
         mainwindow.cpp
 
 HEADERS += \
+        generator.h \
         mainwindow.h
 
 FORMS += \
