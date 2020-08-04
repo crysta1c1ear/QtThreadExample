@@ -19,10 +19,14 @@ public:
 
     Generator * _generator;
 
-private slots:
+public slots:
     void on_pushButtonSender_clicked();
-    void receivemysignal(QString);
+    void receivestring(QString);
+    void receiveint(int);
+    void receiveuint64(uint64_t);
+    void receiveull(unsigned long long);
     void onGeneratorFinished();
+    void onthreadprogress(uint64_t,int);
 
 signals:
     void sendmysignal(QString);
