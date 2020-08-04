@@ -13,8 +13,6 @@ MainWindow::MainWindow(QWidget *parent) :
     emit sendmysignal(QString("Started"));
 
     _generator = new Generator(this);
-    connect(_generator, &Generator::finished, this, &MainWindow::onGeneratorFinished);
-
 }
 
 MainWindow::~MainWindow()
