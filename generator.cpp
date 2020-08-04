@@ -7,5 +7,4 @@ Generator::Generator()
 
 void Generator::run()
 {
-//    emit generatorFinished();
 }

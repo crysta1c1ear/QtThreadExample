@@ -12,7 +12,6 @@ public:
     void run() override;
 
 signals:
-    void generatorFinished();
 };
 
 #endif // GENERATOR_H
