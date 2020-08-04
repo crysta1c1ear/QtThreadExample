@@ -8,7 +8,7 @@ class Generator : public QThread
 {
     Q_OBJECT
 public:
-    Generator();
+    Generator(QObject* parent);
     void run() override;
 
 signals:

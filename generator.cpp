@@ -1,6 +1,6 @@
 #include "generator.h"
 
-Generator::Generator()
+Generator::Generator(QObject* parent)
 {
 
 }
